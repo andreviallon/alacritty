@@ -1,6 +1,4 @@
-import = [
-    "~/.config/alacritty/themes/tokyonight-storm.toml"
-]
+import = ["~/.config/alacritty/themes/tokyonight-moon.toml"]
 
 [ env ]
 TERM = "xterm-256color"
@@ -10,14 +8,10 @@ padding.x = 10
 padding.y = 10
 decorations = "Buttonless"
 option_as_alt = "Both"
+dynamic_padding = false
 
 [font]
-normal.family = "MesloLGS Nerd Font Mono"
+normal.family = "MesloLGL Nerd Font Mono"
 
-size = 13.5
-
-# Default colors
-[colors.primary]
-background = '#24283b'
-foreground = '#a9b1d6'
+size = 13
 
